@@ -57,7 +57,7 @@ module.exports = {
         display: "minimal-ui",
         icons: [
           {
-            src: "https://avatars2.githubusercontent.com/u/14258668?s=400&v=4",
+            src: "ef.png",
             sizes: "460x460",
             type: "image/png"
           },
