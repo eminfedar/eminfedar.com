@@ -9,3 +9,4 @@ yarn-error.log
 screenshots/
 apiKeys.txt
 src/apikeys/
+.now
