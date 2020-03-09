@@ -4666,7 +4666,7 @@ gatsby-plugin-google-analytics@^1.0.24:
   dependencies:
     babel-runtime "^6.26.0"
 
-gatsby-plugin-manifest@^1.0.15:
+gatsby-plugin-manifest@^1.0.27:
   version "1.0.27"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-1.0.27.tgz#148327ebfaf9a0a6791012cc5b5363356ee16ddf"
   integrity sha1-FIMn6/r5oKZ5EBLMW1NjNW7hbd8=
@@ -4711,7 +4711,7 @@ gatsby-plugin-react-helmet@^2.0.8:
   dependencies:
     babel-runtime "^6.26.0"
 
-gatsby-plugin-sharp@^1.6.48:
+gatsby-plugin-sharp@^1.6.41, gatsby-plugin-sharp@^1.6.48:
   version "1.6.48"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-1.6.48.tgz#9bb7515da9c7753b3065c51b2d35a0de5b9aa1f5"
   integrity sha1-m7dRXanHdTswZcUbLTWg3luaofU=
@@ -4755,7 +4755,7 @@ gatsby-react-router-scroll@^1.0.18:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby-remark-images@^1.5.67:
+gatsby-remark-images@^1.5.56:
   version "1.5.67"
   resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-1.5.67.tgz#6b0db6873ea1a141d2b3ca211a05ab85c55922e2"
   integrity sha1-aw22hz6hoUHSs8ohGgWrhcVZIuI=
