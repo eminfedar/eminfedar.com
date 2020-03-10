@@ -57,7 +57,7 @@ const Template = ({ data }) => {
                       <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
                       <hr style={{marginTop: 11, marginBottom:11}} />
-                      <AuthorCard image={ author.image } name={ author.name } shortbio={ author.shortbio } />
+                      <AuthorCard image={ author.cardimage } name={ author.name } shortbio={ author.shortbio } />
 
                   </div>
 
