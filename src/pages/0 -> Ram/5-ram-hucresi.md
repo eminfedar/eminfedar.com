@@ -34,7 +34,7 @@ bir RAM tasarlayacaktık.
 
 64 bit sistemler ise 2⁶⁴ yani **“18 446 744 073 709 551 616 Byte”** hafızaya sahip olacak kadar adresleme yapabilir, bu da yaklaşık **“17 179 869 184 GB”** yapıyor :) *(4GB’ye göre gerçekten yüksek bir rakam)*
 > Yani 64 bit işlemciye sahip bir bilgisayarınız varsa 17 Milyar GB RAM’e kadar yükseltme yapabilirsiniz (tabi gerçek hayatta adres tutmak için 64 bitin hepsi ayrılmaz :))
-### RAM Çipimizin Genel Tasarımı
+## RAM Çipimizin Genel Tasarımı
 
 ![RAM Çipimizin Genel Tasarımı.](https://i.imgur.com/Ml71qeN.png)
 
@@ -49,7 +49,7 @@ bir RAM tasarlayacaktık.
 
 Çipimiz tamam, peki işlemci ile veri alışverişini nasıl sağlayacak? Çıkışları direk işlemciye mi bağlayacağız? Eğer öyle ise her yaptığımız eleman için işlemcide ayrı ayrı çıkışların mı olması gerek?
 
-### Veri Aktarım Yöntemi
+## Veri Aktarım Yöntemi
 
 Normal şartlarda iki şekilde bir çipi başka bir çip ile haberleştirebilirsiniz:
 
