@@ -33,7 +33,7 @@ auto nesne = new UzunBirSinifAdi;
 
 typeid(nesne) == typeid(nesne2); // true
 ```
-1. **Container** tipindeki değişkenlerin içini gezerken kolaylık sağlar:
+3. **Container** tipindeki değişkenlerin içini gezerken kolaylık sağlar:
 
 ```cpp
 std::vector<int> dizi = { 1, 2, 3 };
