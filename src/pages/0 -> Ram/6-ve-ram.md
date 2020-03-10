@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /0-dan-ram-6-ve-ram
 title: 0 → RAM | 6) Ve RAM!
-image: static/img/ram/kapak-ram6.png
+image: https://i.imgur.com/x1DOZwr.png
 tags: ["RAM"]
 date: 2020-03-07T12:00:03.066Z
 description: Ve RAM'imizin son hali :)
@@ -11,7 +11,7 @@ description: Ve RAM'imizin son hali :)
 
 Bu yazımızda RAM’imizi tasarlamayı bitiriyoruz.
 
-![Az kalorili ve rastgele erişteli belleğimiz yemeye hazır efenim.](static/img/ram/buzz-eriste.jpeg) <br>*Az kalorili ve rastgele erişteli belleğimiz yemeye hazır efendim.*
+![Az kalorili ve rastgele erişteli belleğimiz yemeye hazır efenim.](https://i.imgur.com/0MnGR1U.jpg) <br>*Az kalorili ve rastgele erişteli belleğimiz yemeye hazır efendim.*
 
 ## RAM’imizin içini adım adım tasarlayalım:
 
@@ -27,7 +27,7 @@ Bu yazımızda RAM’imizi tasarlamayı bitiriyoruz.
 Onun yerine; eğer gerçekten yapacak olsaydık, decoder gibi komponentlerimizin VCC ve GND uçları olacağından sadece VCC uçlarını VE kapılayabilirdik. *(yani çipe elektriği verip vermeme şeklinde bir anahtarlama olabilir.)*
 *(O yüzden CS pini görselde bir yere bağlı değil :))*
 
-![4000x4000 çözünürlüğe sahip RAMcik içi.](static/img/ram/ram-full.png)
+![4000x4000 çözünürlüğe sahip RAMcik içi.](https://i.imgur.com/Ljqwc4X.png)
 <br>*4000x4000 çözünürlüğe sahip RAMcik içi.*
 
 Bütün bunları sırasıyla yaptığımızda karşımızda RAM’imiz için 8 tanesini yan yana getireceğimiz 256 boyutunda 1 bit saklayabilen **“RAMcik”**leri elde ederiz :).
@@ -42,7 +42,7 @@ Bütün bunları sırasıyla yaptığımızda karşımızda RAM’imiz için 8 t
 
 Bu 256 farklı adreste 1 bit saklayan “RAMcik”lerimizden 8 tane yan yana getirip, veri çıkışlarını da yüksek önemli bitten düşük önemli bite göre bağlayıp CS ve R’/W uçlarını da RAM’in CS ve R’/W uçlarına bağlar isek, 256x8'lik bir RAM yapmış oluruz.
 
-![Ve RAM!](static/img/ram/ram-son-hal.gif)
+![Ve RAM!](https://i.imgur.com/wWAU0Rr.gif)
 
 ## Ve RAM!
 
@@ -50,7 +50,7 @@ Tebrikler!
 
 6 yazılık bu bloğu okuyup anlayarak kendi RAM’inizi sıfırdan tasarlamayı öğrendiniz. *(her yiğidin harcı değil )*
 
-![Tebrikler!](static/img/ram/congrats.jpeg)<br>*Tebrikler!*
+![Tebrikler!](https://i.imgur.com/Yoza0ov.jpg)<br>*Tebrikler!*
 > Eğer babanızdan kalma fabrika zincirleriniz varsa veya milyoner bir iş adamıysanız bu bilgiler üzerine biraz daha koyarak (256 Byte yetmez şimdi tabi, bunu nano seviyede küçültüp 8GB yi sığdırmanız lazım oraya :)) gerçek ve elle tutulur bir RAM yapıp ülkeye güzel bir ihracat geliri getirebilirsiniz :)
 
 Veya kişisel çaplı projelerde kullanılmak üzere (mesela bir arduino projesi) modül olarak takılabilir bir RAM yapıp insanlara sunabilirsiniz. *(veya satabilirsiniz :))*

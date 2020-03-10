@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /0-dan-ram-1-ram-nedir
 title: 0 → RAM | 1) RAM Nedir?
-image: static/img/ram/kapak-ram1.png
+image: https://i.imgur.com/yJBlIrk.png
 tags: ["RAM"]
 date: 2020-03-02T19:00:03.066Z
 description: Sıfırdan RAM tasarladığımız bir seri.
@@ -20,7 +20,7 @@ description: Sıfırdan RAM tasarladığımız bir seri.
 
 İstediğimiz (yani herhangi bir, yani rastgele), hafıza bölümüne **tek seferde** erişebildiğimiz için böyle tesmiye edilmiş.
 
-![Bellekteki bir adrese erişim türü farkları [ Rastgele | Sıralı ]](static/img/ram/rastgele-sirali.gif)
+![Bellekteki bir adrese erişim türü farkları [ Rastgele | Sıralı ]](https://i.imgur.com/1pjHQME.gif)
 <br> *Bellekteki bir adrese erişim türü farkları [ Rastgele | Sıralı ]*
 
 ### Ram Ne İşe Yarar?
@@ -43,7 +43,7 @@ Mesela “veri saklama” dediğimiz işini gerçekleştirebilen en basit devrel
 
 Bu ismin verilme sebebi sadece 1 VE ve 1 VEYA kapısıyla oluşturulabilmesidir. *(bir tane de DEĞİL kapısı var aşağıda tabiki :))*
 
-![1 bit veri saklayabilen AND-OR-Latche çalışma şekli](static/img/ram/andor-latche.gif)*1 bit veri saklayabilen AND-OR-Latche çalışma şekli*
+![1 bit veri saklayabilen AND-OR-Latche çalışma şekli](https://i.imgur.com/3WjTqrD.gif)*1 bit veri saklayabilen AND-OR-Latche çalışma şekli*
 
 Bu devreyi Mantık Devreleri (veya Elektrik Devreleri) tasarlama programları aracılığıyla kendiniz de tasarlayıp simüle edebilirsiniz. Ayrıca ilerideki tasarımlarımızı da kendi bilgisayarınızda gerçeklemek için bu programlara ihtiyacınız olacak.
 

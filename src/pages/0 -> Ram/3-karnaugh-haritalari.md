@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /0-dan-ram-3-karnaugh-haritalari
 title: 0 → RAM | 3) Karnaugh Haritaları
-image: static/img/ram/kapak-ram3.png
+image: https://i.imgur.com/7mRZluF.png
 tags: ["RAM"]
 date: 2020-03-04T09:00:03.066Z
 description: Mantık devreleri inşa etmek için mühim yöntemlerden birisi "Karnaugh Haritaları"
@@ -23,7 +23,7 @@ Karnaugh Haritaları basitçe doğruluk tablosunun aşağıya doğru uzayan hali
 
 Gireceğimiz iki biti toplayan ve eğer **elde *(carry)*** değeri elde edersek **ELDE** çıkışını 1 yapan *(amma çok elde kelimesi geçti… :))*, toplama sounucunu da **SONUÇ** çıkışına veren bir devre yapalım. Bu devrenin doğruluk tablosunu çizersek şöyle bir sonuç elde ederiz:
 
-![Yarım Toplayıcı(Half-Adder) Doğruluk Tablosu](static/img/ram/half-adder-tablosu.png)*Yarım Toplayıcı(Half-Adder) Doğruluk Tablosu*
+![Yarım Toplayıcı(Half-Adder) Doğruluk Tablosu](https://i.imgur.com/YJp4R9l.png)*Yarım Toplayıcı(Half-Adder) Doğruluk Tablosu*
 
 **“Sonuç”** çıkışı görebileceğimiz üzere bir **Özel VEYA** (XOR) kapısı ile gerçeklenebilir, çünkü sadece tet bir bit **1** olduğu zaman çıkış **1**.
 
@@ -40,7 +40,7 @@ Tebrikler, bir **Yarım Toplayıcı** yaptınız :)
 
 ## İyi de neden “Yarım” oldu ki?
 
-![Yarım Toplayıcı (Half-Adder) devresi](static/img/ram/half-adder.gif)
+![Yarım Toplayıcı (Half-Adder) devresi](https://i.imgur.com/VzBPjgv.gif)
 
 *Yarım Toplayıcı (Half-Adder) devresi*
 
@@ -50,7 +50,7 @@ O halde **girişlerimize** de bir **ELDE** ekleyip **TAM** bir toplayıcı yapal
 
 **Tam Toplayıcının doğruluk tablosunu çizersek**:
 
-![b1, b2 ve Elde girişine sahip tam toplayıcının doğruluk tablosu](static/img/ram/full-adder-tablosu.png)
+![b1, b2 ve Elde girişine sahip tam toplayıcının doğruluk tablosu](https://i.imgur.com/ktVMrG6.png)
 
 *b1, b2 ve Elde girişine sahip tam toplayıcının doğruluk tablosu*
 
@@ -60,7 +60,7 @@ O halde **girişlerimize** de bir **ELDE** ekleyip **TAM** bir toplayıcı yapal
 
 ### O zaman Karnaugh!
 
-![Sonuç ve Elde çıkışlarımızı elde etmek için kullandığımız Karnaugh Haritaları](static/img/ram/full-adder-karna.gif)
+![Sonuç ve Elde çıkışlarımızı elde etmek için kullandığımız Karnaugh Haritaları](https://i.imgur.com/8sYgtol.gif)
 
 *Sonuç ve Elde çıkışlarımızı elde etmek için kullandığımız Karnaugh Haritaları*
 
@@ -93,10 +93,10 @@ Halbuki Karnaugh sayesinde yukarıda 5 kapı kullanırken, sadeleştirdiğimiz s
 Karnaugh Haritalarıda gruplama yaparken elbette belirli kurallarımız var, gruplama yaparken bu kurallara göre yapıyoruz:
 > Sadece **2ᶰ katları** kadar 1'ler **gruplanabilir:**
 
-![Sadece **2ᶰ katları** kadar 1'ler **gruplanabilir**](static/img/ram/karna-kural1.gif)
+![Sadece **2ᶰ katları** kadar 1'ler **gruplanabilir**](https://i.imgur.com/xVg5x0M.gif)
 > Gruplamaya önce **en az komşuya sahip** 1'lerden başla:
 
-![*Gruplamaya önce **en az komşuya sahip** 1'lerden başla.*](static/img/ram/karna-kural2.gif)
+![*Gruplamaya önce **en az komşuya sahip** 1'lerden başla.*](https://i.imgur.com/ym5NLko.gif)
 
 Çok da değil aslında 2 tane mühim kuralımız varmış :)
 
@@ -130,7 +130,7 @@ ELDE çıkışında ise E’leri paranteze alabiliriz:
 
 Devremizi gerçekleyelim:
 
-![](static/img/ram/full-adder.gif)
+![Tam Toplayici](https://i.imgur.com/CfyHZOc.gif)
 
 ### Karnaugh’yı da hallettik!
 
