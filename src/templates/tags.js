@@ -12,6 +12,7 @@ export default function Tags({ pathContext }) {
 
     const { posts, post, tag } = pathContext
     const sortedTags = Object.keys(posts).sort();
+    console.log(post)
 
     if (tag) {
         return (
@@ -19,29 +20,30 @@ export default function Tags({ pathContext }) {
                 <Navbar />
                 <div className="home-template">
 
-                    <header className="site-header outer" style={{backgroundImage: 'url('+ author.backgroundImage +')'}}>
-                        <div className="inner">
-                            <div className="site-header-content">
-                                <h1 className="site-title">
-                                    {post.length} yazı{post.length === 1 ? "" : "s"} <span style={{ fontStyle: 'italic' }}>{tag}</span> kategorisine sahip.
-                                </h1>
-                            </div>
-                        </div>
-                    </header>
+                    <Header
+                        image={author.backgroundImage}
+                        title={`${tag} Kategorisinde ${post.length} yazı var.`}
+                        tagline='-' />
 
                     <main id="site-main" className="site-main outer" role="main">
-
                         <div className="inner">
-
                             <div className="post-feed">
+                                {
+                                    post.map((node) => (
+                                        <BlogCard
+                                            key={node.id}
+                                            path={node.frontmatter.path}
+                                            image={node.frontmatter.image}
+                                            tag={node.frontmatter.tags[0]}
+                                            title={node.frontmatter.title}
+                                            date={node.frontmatter.date}
+                                            description={node.frontmatter.description}
 
-                                {post.map(post => (
-
-                                    <BlogCard key={post.id} path={post.frontmatter.path} image={post.frontmatter.image} tag={post.frontmatter.tags[0]} title={post.frontmatter.title} date={post.frontmatter.date} description={post.frontmatter.description} authorImage={author.cardimage} authorName={author.name} />
-                                ))}
-
+                                            authorImage={author.cardimage}
+                                            authorName={author.name} />
+                                    ))
+                                }
                             </div>
-
                         </div>
                     </main>
 

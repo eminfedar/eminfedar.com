@@ -1,6 +1,4 @@
 import React from "react"
-import Link from "gatsby-link"
-import Helmet from 'react-helmet'
 import Header from '../components/Header'
 import BlogCard from '../components/BlogCard'
 import PaginateLink from '../components/PaginateLink'
@@ -9,54 +7,61 @@ import author from '../author/eminfedar.json'
 import Navbar from "../components/Navbar"
 
 const IndexPage = ({ data, pathContext }) => {
-  const { group, index, first, last } = pathContext
-  const previousUrl = index - 1 == 1 ? "" : (index - 1).toString()
-  const nextUrl = (index + 1).toString()
-  const total = data.allMarkdownRemark.edges.filter(post => post.node.frontmatter.templateKey === 'blog-post').length
+    const { group, index, first, last } = pathContext
+    const previousUrl = index - 1 == 1 ? "" : (index - 1).toString()
+    const nextUrl = (index + 1).toString()
+    const total = data.allMarkdownRemark.edges.filter(post => post.node.frontmatter.templateKey === 'blog-post').length
 
-  return (
-    <div>
-      <Navbar />
-      <div className="home-template">
+    return (
+        <div>
+            <Navbar />
+            <div className="home-template">
 
-        <Header image={author.backgroundImage} title={author.name} tagline={author.shortbio} />
+                <Header image={author.backgroundImage} title={author.name} tagline={author.shortbio} />
 
-        <main id="site-main" className="site-main outer" role="main">
+                <main id="site-main" className="site-main outer" role="main">
+                    <div className="inner">
+                        <div className="post-feed">
+                            {
+                                group.map(({ node }) => (
+                                    <BlogCard
+                                        key={node.id}
+                                        path={node.frontmatter.path}
+                                        image={node.frontmatter.image}
+                                        tag={node.frontmatter.tags[0]}
+                                        title={node.frontmatter.title}
+                                        date={node.frontmatter.date}
+                                        description={node.frontmatter.description}
 
-          <div className="inner">
+                                        authorImage={author.cardimage}
+                                        authorName={author.name} />
 
-            <div className="post-feed">
+                                ))
+                            }
+                        </div>
 
-              {group.map(({ node }) => (
+                        <div className="paginatation">
+                            <div className="previousLink">
+                                <PaginateLink tag={first} url={previousUrl} text="Prev" />
+                            </div>
 
-                <BlogCard key={node.id} path={node.frontmatter.path} image={node.frontmatter.image} tag={node.frontmatter.tags[0]} title={node.frontmatter.title} date={node.frontmatter.date} description={node.frontmatter.description} authorImage={author.cardimage} authorName={author.name} />
+                            <p>{index} of {Math.ceil(total / 12)}</p>
 
-              ))}
+                            <div className="nextLink">
+                                <PaginateLink tag={last} url={nextUrl} text="Next" />
+                            </div>
+
+                        </div>
+
+                    </div>
+                </main>
+
+                <Footer />
 
             </div>
+        </div>
 
-            <div className="paginatation">
-              <div className="previousLink">
-                <PaginateLink tag={first} url={previousUrl} text="Prev" />
-              </div>
-
-              <p>{index} of {Math.ceil(total / 12)}</p>
-
-              <div className="nextLink">
-                <PaginateLink tag={last} url={nextUrl} text="Next" />
-              </div>
-
-            </div>
-
-          </div>
-        </main>
-
-        <Footer />
-
-      </div>
-    </div>
-
-  )
+    )
 }
 
 export default IndexPage
