@@ -1,7 +1,3 @@
-Kişisel blog.
+Gatsby ile oluşturulmuş kişisel blogum.
 
----
-
-Gatsby blog forked from: [unrealcpp.com](https://unrealcpp.com/)
-
-support the project on [Patreon](https://www.patreon.com/harrisonmcguire)
+*forked from: [unrealcpp.com](https://unrealcpp.com/)*
