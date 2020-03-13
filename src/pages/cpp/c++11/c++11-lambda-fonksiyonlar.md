@@ -282,13 +282,13 @@ socket.onMesssage( [&](const char* message) {
         // ... maxYas'i kullanırız...
     }
 ```
-Veya bundan daha kompleks kıyaslamaları yapmak için hemen döngünün üstünde bir for tanımlayıp kullanabiliriz.
+Veya bundan daha kompleks kıyaslamaları yapmak için hemen döngünün üstünde bir **lambda** fonksiyon tanımlayıp kullanabiliriz.
 
 Böylece sadece bir yerde kullanılacak lokal fonksiyonlar için global fonksiyonlar tanımlamayız.
 
---
-
 > C++11'in dile getirdiği en güzel nimetlerden biri olan Lambda da kısaca böyleydi.
+
+---
 
 Eksik veya hatalı bıraktığımız bir yer görürseniz yorumlara yazmayı unutmayın :)
 
