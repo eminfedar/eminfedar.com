@@ -389,16 +389,18 @@ dd {
 }
 
 blockquote {
-    margin: 1.5em 0;
-    padding: 0 1.6em;
-    border-left: .5em solid #e5eff5
+    padding: 1em 1em 0.1em 1em;
+    border-left: .2em solid #009b00;
+
+    color: #016201;
+    background: #009b0011;
 }
 
 blockquote p {
-    margin: .8em 0;
-    font-size: 1.2em;
+    
+    font-size: 1em;
     font-weight: 400;
-    line-height: 1.6em;
+    line-height: 1.2em;
 }
 
 blockquote small {
@@ -421,7 +423,7 @@ blockquote cite a {
 }
 
 a {
-    color: #26a8ed;
+    color: #00b52d;
     text-decoration: none
 }
 
