@@ -25,14 +25,14 @@ class IronImage extends Component {
 
   render() {
     return (
-      <div className="post-card-image">
+      <div className="post-card-image" style={{backgroundColor: '#fff'}}>
         <div 
           className="iron-image-loaded" 
           ref={imageLoadedElem => this.ironImageHd = imageLoadedElem}>
         </div>
         <div 
           className="iron-image-preload" 
-          style={{ backgroundImage: `url('${this.props.srcPreload}')` }}>
+          style={{ backgroundImage: `url(static/loading.svg)`, backgroundSize: 'auto', backgroundRepeat: 'no-repeat' }}>
         </div>
       
       </div>
