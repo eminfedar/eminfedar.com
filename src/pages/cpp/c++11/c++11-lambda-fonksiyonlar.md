@@ -164,7 +164,7 @@ auto fonksiyon = [&] (int parametre) {
     std::cout << "Merhaba";
 };
 ```
-C++'ta lambdanın veri tipi her tanımlanmış lambdanın kendisine has `unique bir tiptir`. Bu yüzden dönüş tipini `auto` yapmalısınız.
+C++'ta lambdanın veri tipi her tanımlanmış lambdanın kendisine has **unique bir tiptir**. Bu yüzden dönüş tipini `auto` yapmalısınız.
 
 Eğer isterseniz `std::function` tipini de kullanabilirsiniz
 > `std::function` ile değişkenin içinde tanımladığınız fonksiyonu sonradan değiştirebilirsiniz fakat performansı daha düşüktür):
