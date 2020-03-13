@@ -53,7 +53,7 @@ auto f = [] {
 };
 ```
 
-**Ek scope değişkenleri** kullanına örnek:
+**Ek scope değişkenleri** kullanımına örnek:
 ```cpp
 int a = 5;
 int b = 6;
@@ -83,7 +83,7 @@ auto fonksiyon = [&, b]() {
 
 fonksiyon(); // 10 6
 ```
-Eğer dönüş tipi belli bir lambda fonksiyon tanımlamak isterseniz:
+Eğer dönüş yani `return` tipiyle bir lambda fonksiyon tanımlamak isterseniz:
 ```cpp
 auto fonksiyon = []() -> int {
     return 0;
@@ -107,7 +107,7 @@ onClick( [](int deger) {
     // ...
 });
 ```
-### 2. Kodun .ok ve karmaşık gözükmesini engeller:
+### 2. Kodun çok ve karmaşık gözükmesini engeller:
 Geçici veya tek kullanımlık bir fonksiyonu tanımlamak için .h'ta tanımını, .cpp'de içini yazıp sonra kullanmak yerine direk tanımladığınız gibi kullanabilirsiniz.
 
 Normal:
@@ -164,9 +164,10 @@ auto fonksiyon = [&] (int parametre) {
     std::cout << "Merhaba";
 };
 ```
-C++'ta lambdanın veri tipi her değişkenin kendisine has `unique bir tiptir`. Bu yüzden dönüş tipini `auto` yapmalısınız.
+C++'ta lambdanın veri tipi her tanımlanmış lambdanın kendisine has `unique bir tiptir`. Bu yüzden dönüş tipini `auto` yapmalısınız.
 
-Eğer isterseniz `std::function<>` tipini de kullanabilirsiniz (değişkenin içindeki fonksiyonu değiştirebilirsiniz fakat performansı daha düşüktür):
+Eğer isterseniz `std::function` tipini de kullanabilirsiniz
+> `std::function` ile değişkenin içinde tanımladığınız fonksiyonu sonradan değiştirebilirsiniz fakat performansı daha düşüktür):
 ```cpp
 #include <functional>
 
@@ -182,7 +183,7 @@ a = []() {
 
 Not: `auto` ile tanımlanan lambda kendine has basit bir fonksiyon tipinde olduğundan **performansı** `std::function`'a göre çok çok daha iyidir**:
 
-### std::function vs. auto vs. normal fonksiyon
+### **Performans analizi:** std::function, auto, normal fonksiyon
 ```bash
 # 1 Milyon defa std::function ve auto lambda ve normal fonksiyon fonksiyonu çağırma testi:
 eminfedar@pardus:~$ g++ test.cpp --std=c++11 && ./a.out 
