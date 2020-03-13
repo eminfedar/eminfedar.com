@@ -32,7 +32,7 @@ class IronImage extends Component {
         </div>
         <div 
           className="iron-image-preload" 
-          style={{ backgroundImage: `url(static/loading.svg)`, backgroundSize: 'auto', backgroundRepeat: 'no-repeat' }}>
+          style={{ backgroundImage: `url(/static/loading.svg)`, backgroundSize: 'auto', backgroundRepeat: 'no-repeat' }}>
         </div>
       
       </div>
