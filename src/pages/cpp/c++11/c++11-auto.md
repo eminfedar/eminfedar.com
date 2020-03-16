@@ -66,17 +66,13 @@ for (auto i : dizi)
     std::cout << i << ", ";
 }
 // 1, 2, 3,
-```
 
-Dikkat, saf dizilerde for bu şekilde dönülemez:
-```cpp
 int normalDizi[3] = { 1, 2, 3 };
-
 for (auto i: normalDizi)
 {
     std::cout << i << ", ";
 }
-// ERROR: this range-based 'for' statement requires a suitable "begin" function and none was found
+// 1, 2, 3,
 ```
 
 ---
