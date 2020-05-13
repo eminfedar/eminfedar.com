@@ -7,7 +7,7 @@ tags: ["C++11", "C++"]
 date: 2020-05-14T00:06:03.066Z
 description: constexpr mi? const olmasın o?
 ---
-Merhabalar, bu yazıda C++11 sürümünde dile eklenmiş `constexpr` terimini inceleyeceğiz.
+Merhabalar, bu yazıda C++11 sürümünde dile eklenmiş **constexpr** terimini inceleyeceğiz.
 
 ---
 ## Nedir?
@@ -21,24 +21,24 @@ Veya sabit bir değişkene ihtiyacımız varsa zaten **const** ile tanımlayabil
 <br>
 Örneğin `const int UZUNLUK = 10;` gibi.
 
-**constexpr** ise derleme esnasında yapılacak işlemi basit makro kopyala-yapıştırı ve sabit değişken tanımlayabilmenin de ötesine çıkarıp, bu ikisinin birleşerek daha kapsamlı ve dilin kendisine ait bir işlevi olmuş halidir diyebiliriz..
+**constexpr** ise derleme esnasında yapılacak işlemi basit makro kopyala-yapıştırı ve sabit değişken tanımlayabilmenin de ötesine çıkarıp, bu ikisinin birleşerek daha kapsamlı ve dilin kendisine ait bir işlevi olmuş halidir diyebiliriz.
 
 ### Nasıl yani?
 
-Mesela genel olarak dereceler ile çalışmanıza rağmen formüllerde o derecenin radyan cinsinden değerine ihtiyaç duyuyorsunuz. Bunun için bir constexpr tanımlayıp kullanabilirsiniz:
+Mesela genel olarak dereceler ile çalışmanıza rağmen programınızdaki formüllerde o derecenin radyan cinsinden değerine ihtiyaç duyuyorsunuz. Bunun için bir **constexpr** çevirici fonksiyon tanımlayıp kullanabilirsiniz:
 
 ```cpp
-const double PI = 3.14159265358979323846;
+const double PI = 3.1415926535;
 constexpr double radyan(double derece) { return derece*180/PI; }
 
 int sonuc = radyan(180); // Derleme esnasında hesaplanır. Çünkü sonucu belli ve sabit.
 ```
-Bu işlemlerin sonucu program daha derlenirken bellidir ve bir daha hesaplanmazlar.
+> Bu işlemlerin sonucu program daha derlenirken bellidir ve bir daha hesaplanmazlar.
 
 
 Fakat makrolar gibi "sadece derleme esnasında" da değiller. Aynı zamanda **çalışma esnasında(runtime)** olarak da kullanılabilirler:
 
-*(işte dışardan makrolarla değil de dilin kendi içindeki özelliği olunca böyle güzel şeyler yapabiliyorsunuz :))*
+(işte dışardan makrolarla değil de dilin kendi içindeki bir özelliği olunca böyle güzel şeyler yapabiliyorsunuz :))
 ```cpp
 #include <iostream>
 #include <string>
@@ -54,7 +54,7 @@ int main()
 
     // Çalışma esnasında: (run-time)
     int c;
-    std::cin >> c;
+    std::cin >> c; // Kullanıcıdan değeri aldık
     int d = KARESI(c);
     std::cout << c << ", " << d << std::endl;
 
@@ -63,15 +63,11 @@ int main()
 
 //Derlemek için: g++ dosya.cpp --std=c++11
 ```
-**constexpr** sayesinde yukarıdaki kod şöyle bir kod döndürüyor:
-```cpp
-constexpr int KARESI(int sayi) { return sayi*sayi; }
+Şimdi constexpr'in etkisini bir inceleyelim.
 
-const int a = 5;
-int b = KARESI(a);
-```
-Assembly Çıktısı (`int b` için 1 işlem):
-```x86asm
+**constexpr** sayesinde yukarıdaki kod şöyle bir makine dili oluşturuyor (**int b** için 1 işlem):
+
+```asm6502
 main:
     ; ...
     mov     DWORD PTR [rbp-4], 5 ; const int a = 5;
@@ -87,7 +83,7 @@ const int a = 5;
 int b = KARESI(a);
 ```
 Assembly Çıktısı (`int b` için 9 işlem):
-```x86asm
+```asm6502
 KARESI(int): ; "int KARESI(int sayi)" fonksiyonu
     push    rbp
     mov     rbp, rsp
