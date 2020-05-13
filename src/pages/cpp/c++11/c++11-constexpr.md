@@ -4,7 +4,7 @@ path: /c++11-constexpr
 title: "C++11: constexpr"
 image: https://i.imgur.com/2amBlXu.png
 tags: ["C++11", "C++"]
-date: 2020-05-10T12:00:03.066Z
+date: 2020-05-14T00:06:03.066Z
 description: constexpr mi? const olmasın o?
 ---
 Merhabalar, bu yazıda C++11 sürümünde dile eklenmiş `constexpr` terimini inceleyeceğiz.
