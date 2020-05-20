@@ -65,7 +65,7 @@ int main()
 ```
 Şimdi constexpr'in etkisini bir inceleyelim.
 
-**constexpr** sayesinde yukarıdaki kod şöyle bir makine dili oluşturuyor (**int b** için 1 işlem):
+**constexpr** sayesinde kodumuz şöyle bir **Assembly** çıktısı oluşturuyor (**int b** için 1 işlem):
 
 ```asm6502
 main:
