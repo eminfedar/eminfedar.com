@@ -4,7 +4,7 @@ path: /c++11-std-move
 title: "C++11: std::move"
 image: https://i.imgur.com/XDFq7Uf.png
 tags: ["C++11", "C++"]
-date: 2020-03-10T12:00:03.066Z
+date: 2020-07-08T12:00:03.066Z
 description: C++11'deki std::move'a bir bakalım.
 ---
 Merhabalar, bu yazıda C++11 sürümünde dile eklenmiş `std::move` keywordünü inceleyeceğiz.
