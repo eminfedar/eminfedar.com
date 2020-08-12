@@ -2,9 +2,9 @@
 templateKey: blog-post
 path: /plymouth-tema-olusturma-rehberi
 title: Plymouth Tema Oluşturma Rehberi
-image: https://www.dropbox.com/s/62hvx2ycig2p0v5/plymouth.png?dl=0
+image: https://www.dropbox.com/s/62hvx2ycig2p0v5/plymouth.png?raw=1
 tags: ["Linux", "Plymouth"]
-date: 2020-09-12T22:00:00.000Z
+date: 2020-08-12T22:00:00.000Z
 description: Kendi boot ekranınızı tasarlayın!
 ---
 Merhabalar, bu yazıda Pardus gibi GNU/Linux sistemlerde sistem boot olurken karşınıza çıkan ekranı tasarlayacağız.
@@ -78,15 +78,19 @@ plymouth --quit;
 # 2. Kodlama:
 Temamızı genel yapısıyla oluşturduktan sonra artık kodlamaya başlayabiliriz.
 
-Plymouth, temanızı kendine has basit bir script dili ile çalıştırır. Bu script diliyle neler yapabileceğinize dair birkaç örnek verelim:
+Kodlarımızı **tema.script** dosyasına yazıyoruz.
+
+Plymouth, temaları **bash + C dili** karışımı gibi kendine has basit bir script dili ile yazılır.
+
+Bu script diliyle neler yapabileceğinize dair birkaç örnek verelim:
 
 ## Fotoğraf ekleme:
 ```bash
 # Kaynak dizini içindeki manzara.png'yi okuduk
 manzara = Image("manzara.png");
 
-manzara.GetWidth(); # İstersek Fotoğrafın genişliğini okuyabiliriz
-manzara.GetHeight(); # İstersek Fotoğrafın yüksekliğini okuyabiliriz
+manzara.GetWidth(); # Fotoğrafın genişliğini okuyabiliriz
+manzara.GetHeight(); # Fotoğrafın yüksekliğini okuyabiliriz
 
 manzara = manzara.Scale(2, 2); # İstersek fotoğrafı 2 katına büyütebiliriz.
 manzara = manzara.Rotate(Math.Pi/2); # İstersek fotoğrafı döndürebiliriz (radyan cinsinden değer)
@@ -118,7 +122,7 @@ spr_yazi.SetPosition(10, 200);
 # Farkli renkler ile yukarıdan aşağıya bir gradyan oluşturabilirsiniz:
 
 Window.SetBackgroundTopColor(0, 0, 1); # (R, G, B)
-Window.SetBackgroundBottomColor(0.8, 0.2, 0.1);
+Window.SetBackgroundBottomColor(0.8, 0.2, 0.1); # (R, G, B)
 ```
 
 ## Animasyon ekleme:
@@ -128,10 +132,10 @@ fun refresh_callback ()
 {
     // Buradaki kodlar saniyede 50 kere calisacak.
 }
-Plymouth.SetRefreshFunction (refresh_callback);
+Plymouth.SetRefreshFunction(refresh_callback);
 ```
 
-Örneğin bir logoyu veya yüklenme resmini sürekli olarak döndürmek için:
+Örneğin bir logoyu veya yüklenme resmini sürekli olarak çevirmek için:
 ```bash
 img_logo = Image("logo.png")
 spr_logo = Sprite(img_logo)
@@ -142,7 +146,7 @@ fun refresh_callback (){
 
     spr_logo.SetImage(img_logo.Rotate(rotate));
 }
-Plymouth.SetRefreshFunction (refresh_callback);
+Plymouth.SetRefreshFunction(refresh_callback);
 ```
 
 # 3. Faydalı linkler:
@@ -155,6 +159,6 @@ Evet, sanırım bu rehberde çoğu şeyi ele aldık.
 
 Artık kendi boot ekranınızı tasarlayabilirsiniz :)
 
-Eğer eksik bıraktığımız veya eklenmesini istediğiniz bir şey var ise yorumlarda yazmayı unutmayın :)
+Eğer eksik bıraktığımız veya eklenmesini istediğiniz bir şey var ise yorumlarda yazmayı unutmayın.
 
 Selametle.
