@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /c++11-constexpr
 title: "C++11: constexpr"
-image: https://i.imgur.com/2amBlXu.png
+image: https://www.dropbox.com/s/p2wxdwj0hvyg0zw/kapak-constexpr.png?raw=1
 tags: ["C++11", "C++"]
 date: 2020-05-14T00:06:03.066Z
 description: constexpr mi? const olmasın o?

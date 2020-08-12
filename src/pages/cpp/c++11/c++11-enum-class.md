@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /c++11-enum-class
 title: "C++11: enum class"
-image: https://i.imgur.com/LyftKEo.png
+image: https://www.dropbox.com/s/q96eb97pw1uzrzj/kapak-enum.png?raw=1
 tags: ["C++11", "C++"]
 date: 2020-03-16T12:00:03.066Z
 description: C++11'de gelen "enum class" nedir? enum'dan farkı nedir?

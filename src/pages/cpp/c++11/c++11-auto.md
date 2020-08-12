@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /c++11-auto
 title: "C++11: auto"
-image: https://i.imgur.com/EApEXJF.png
+image: https://www.dropbox.com/s/01ev7hrp0p2j66q/kapak-auto.png?raw=1
 tags: ["C++11", "C++"]
 date: 2020-03-10T12:00:03.066Z
 description: C++11'de gelen "auto" keywordü nedir?
