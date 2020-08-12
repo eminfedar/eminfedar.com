@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /0-dan-ram-4-kod-cozuculer
 title: 0 → RAM | 4) Kod Çözücüler
-image: https://i.imgur.com/NNzPVRl.png
+image: https://www.dropbox.com/s/s1ixgrzmy85maf9/kapak-decoder.png?raw=1
 tags: ["RAM"]
 date: 2020-03-05T10:57:03.066Z
 description: Temel RAM bileşenlerimizin sonuncusu "Kod Çözücüler"
@@ -24,7 +24,7 @@ Girişlerine ikilik tabanda verilen girdiye göre sadece bir çıkışını akti
 > 
 > 11 -> **3**
 
-![2 Giriş, 4 Çıkışlı bir kod çözücünün çalışma şekli.](https://i.imgur.com/YGSzlZy.gif)
+![2 Giriş, 4 Çıkışlı bir kod çözücünün çalışma şekli.](https://www.dropbox.com/s/dfvxbqfvpgfgdhw/decoder-animasyon.gif?raw=1)
 
 *2 Giriş, 4 Çıkışlı bir kod çözücünün çalışma şekli.*
 
@@ -38,7 +38,7 @@ Fakat biz yine de kendi decoderimizi de yapmayı öğrenebilmek adına içine bi
 
 *Aslında gayet basit bir iç devresi var.*
 
-![2x4 Kod Çözücünün içi.](https://i.imgur.com/4c6HGPu.gif)*2x4 Kod Çözücünün içi.*
+![2x4 Kod Çözücünün içi.](https://www.dropbox.com/s/wvbghhw9q317we7/decoder-ic-gorunum.gif?raw=1)*2x4 Kod Çözücünün içi.*
 
 Siz de kolayca çıkışlarımızın mantıksal durumlarını yazarak devreyi rahatlıkla bulabilirdiniz. Nitekim biz de öyle yaptık:
 > Y0= X1’.X0’ (00)
@@ -57,7 +57,7 @@ Bu adres genelde **0x123456** şeklinde onaltılık tabanda gösterilen bir say�
 
 ### Mesela:
 
-![a isminde bir değişkenin RAM’deki bir hücrede saklanması.](https://i.imgur.com/U0i4di4.png)
+![a isminde bir değişkenin RAM’deki bir hücrede saklanması.](https://www.dropbox.com/s/v6e9cwj7tni5ogh/degisken-gosterim.png?raw=1)
 
 *a isminde bir değişkenin RAM’deki bir hücrede saklanması.*
 
@@ -75,7 +75,7 @@ Bu şekilde eğer bir Kod çözücüye **2³² = 4,294,967,296** hesabıyla **32
 
 4,294,967,296 tane kabloyu teker teker bir hücreye bağlamak hem kablo, hem alan hem de işlem israfı olacaktır. Bu yüzden tek boyutlu olarak düşündüğümüz hücreleri adresleme işlemini iki boyutlu düşünmeliyiz. Yani 1 boyutlu bir dizi değil de, 2 boyutlu bir Matris olarak hücrelerimizi tutmalıyız.
 
-![2 boyutlu matris kullanarak daha az kablo kullanımını sağlamak.](https://i.imgur.com/oKOS6Yr.gif)*2 boyutlu matris kullanarak daha az kablo kullanımını sağlamak.*
+![2 boyutlu matris kullanarak daha az kablo kullanımını sağlamak.](https://www.dropbox.com/s/epzwhjqbjjdec7x/1d-2d.gif?raw=1)*2 boyutlu matris kullanarak daha az kablo kullanımını sağlamak.*
 
 4GB’lik bir RAM için ise 2³² şeklinde tek bir decoder yerine, 2⁸’lik 4 tane decoder kullanılabilir. Böylece kablo sayısı 4,294,967,296'dan 128'e düşüyor. Bu da bize **33 milyon kat** daha az kablo kullanımı ile muazzam bir tasarruf sağlıyor.
 

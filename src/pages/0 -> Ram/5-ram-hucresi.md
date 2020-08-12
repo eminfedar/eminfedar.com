@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /0-dan-ram-5-ram-hucresi
 title: 0 → RAM | 5) RAM Hücresi
-image: https://i.imgur.com/KTVzr0W.png
+image: https://www.dropbox.com/s/5m675tpksv2t2sp/kapak-ram-hucresi.png?raw=1
 tags: ["RAM"]
 date: 2020-03-06T11:00:03.066Z
 description: Temel RAM bileşenlerimizin sonuncusu "Kod Çözücüler"
@@ -36,7 +36,7 @@ bir RAM tasarlayacaktık.
 > Yani 64 bit işlemciye sahip bir bilgisayarınız varsa 17 Milyar GB RAM’e kadar yükseltme yapabilirsiniz (tabi gerçek hayatta adres tutmak için 64 bitin hepsi ayrılmaz :))
 ## RAM Çipimizin Genel Tasarımı
 
-![RAM Çipimizin Genel Tasarımı.](https://i.imgur.com/Ml71qeN.png)
+![RAM Çipimizin Genel Tasarımı.](https://www.dropbox.com/s/utrae2rfnc5ou72/ram-component.png?raw=1)
 
 *RAM Çipimizin Genel Tasarımı.*
 
@@ -59,7 +59,7 @@ Normal şartlarda iki şekilde bir çipi başka bir çip ile haberleştirebilirs
 
 *(Örneğin SSD’den veri okuyacağım, o zaman SSD’yi aktif edip diğerlerini pasif halde tutarım. Veya RAM’den veri okumak istiyorum, diğerlerini pasif hale getirip bu sefer de sadece RAM’i aktif ederim)*
 
-![Ortak veri yolu kullanan çiplerin Chip Select girişi kullanılarak veri yoluna bağlanması.](https://i.imgur.com/y6jKYtq.gif)
+![Ortak veri yolu kullanan çiplerin Chip Select girişi kullanılarak veri yoluna bağlanması.](https://www.dropbox.com/s/swhn2qhjk1o8zn2/ortak-veri-yolu.gif?raw=1)
 <br>*Ortak veri yolu kullanan çiplerin Chip Select girişi kullanılarak veri yoluna bağlanması.*
 
 ## Gelelim artık RAM Hücresine!
@@ -74,7 +74,7 @@ Milyarları saklayabilen 1 biti saklayabilendir.
 
 Yani önce **tek bir biti saklayabilen** bir **“RAM Hücresi”** yapıp sonra bunu istediğimiz sayıda kopyalarak istediğimiz boyutta RAM elde edeceğiz.
 
-![Ramimize 1 bitlik veri saklama işini gerçekleştirecek temel RAM Hücresi. İç planı ve dışarıya soyutlanmış halleri.](https://i.imgur.com/pjYf40y.gif)
+![Ramimize 1 bitlik veri saklama işini gerçekleştirecek temel RAM Hücresi. İç planı ve dışarıya soyutlanmış halleri.](https://www.dropbox.com/s/5pwhabr4en7ky7n/ram-hucresi.gif?raw=1)
 <br> *Ramimize 1 bitlik veri saklama işini gerçekleştirecek temel RAM Hücresi. İç planı ve dışarıya soyutlanmış halleri.*
 
 Hücremizin içinde kullandığımız devrede ilginç bir eleman görebilirsiniz. *(D Q ve CLK yazan)*
@@ -91,7 +91,7 @@ Merak etmeyin, baştaki mandalımıza **2 VE** ve **1 Değil** kapısı ekleyere
 
 Logisim programında tasarladığım çalışan bir D-Tipi F/F’nin görüntüsü şu şekilde: *(yani RAM hücremizin içindeki D Q ve CLK yazan devre elemanının içi)*
 
-![D-Tipi F/F iç devresi](https://i.imgur.com/5xIVOfl.png) <br>
+![D-Tipi F/F iç devresi](https://www.dropbox.com/s/70fgg3yqmsil1vd/mandal-logisim.png?raw=1) <br>
 [Logisim programında çalışan bir D tipi F/F devre dosyası](https://shorturl.at/kyDOY)
 > Kırmızı çizgi ile ayırdığım kısmın sağında kalan parçalar ilk dersimizdeki **Ve-Veya** mandalı. Ek olarak sadece soldaki **2 tane VE, 1 tane Değil** kapılarını ekledik.
 
