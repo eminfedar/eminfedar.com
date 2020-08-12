@@ -4,7 +4,7 @@ path: /plymouth-tema-olusturma-rehberi
 title: Plymouth Tema Oluşturma Rehberi
 image: https://i.imgur.com/wPTVCBj.png
 tags: ["Linux", "Plymouth"]
-date: 2020-03-01T22:00:00.000Z
+date: 2020-09-12T22:00:00.000Z
 description: Kendi boot ekranınızı tasarlayın!
 ---
 Merhabalar, bu yazıda Pardus gibi GNU/Linux sistemlerde sistem boot olurken karşınıza çıkan ekranı tasarlayacağız.
