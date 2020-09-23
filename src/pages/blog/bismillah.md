@@ -7,6 +7,7 @@ tags: ["Genel"]
 date: 2020-03-01T22:00:00.000Z
 description: Bismillah her hayrın başıdır.
 ---
+![RISC-V Instruction Set](/riscv/riscv-instructions.png)
 **Bismillâh** her hayrın başıdır. Biz dahi başta ona başlarız.
 
 Bil ey nefsim!
