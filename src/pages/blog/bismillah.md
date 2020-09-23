@@ -2,12 +2,12 @@
 templateKey: blog-post
 path: /bismillah
 title: Bismillah
-image: https://www.dropbox.com/s/5lq8uhn4wxaqsio/bismillah.jpg?raw=1
+image: /static/riscv/riscv-isa-photo.png
 tags: ["Genel"]
 date: 2020-03-01T22:00:00.000Z
 description: Bismillah her hayrın başıdır.
 ---
-![RISC-V Instruction Set](/static/riscv/riscv-instructions.png)
+https://www.dropbox.com/s/5lq8uhn4wxaqsio/bismillah.jpg?raw=1
 **Bismillâh** her hayrın başıdır. Biz dahi başta ona başlarız.
 
 Bil ey nefsim!
