@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /c++11-std-move
 title: "C++11: std::move"
-image: https://www.dropbox.com/s/wayoxlu0l3mi7x5/kapak-move.png?raw=1
+image: /static/cpp/kapak-move.png
 tags: ["C++11", "C++"]
 date: 2020-07-08T12:00:03.066Z
 description: C++11'deki std::move'a bir bakalım.

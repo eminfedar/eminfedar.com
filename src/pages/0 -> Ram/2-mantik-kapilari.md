@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /0-dan-ram-2-mantik-kapilari
 title: 0 → RAM | 2) Mantık Kapıları
-image: https://www.dropbox.com/s/k3uwndoil37y3oc/kapak-mantik-kapilari.png?raw=1
+image: /static/ram/kapak-mantik-kapilari.png
 tags: ["RAM"]
 date: 2020-03-03T18:57:03.066Z
 description: İleride sıkça kullanacağımız mantık kapılarına bir el atalım.

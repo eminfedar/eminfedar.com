@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /0-dan-ram-3-karnaugh-haritalari
 title: 0 → RAM | 3) Karnaugh Haritaları
-image: https://www.dropbox.com/s/m7t0deh5sg603ow/kapak-karnaugh.png?raw=1
+image: /static/ram/kapak-karnaugh.png
 tags: ["RAM"]
 date: 2020-03-04T09:00:03.066Z
 description: Mantık devreleri inşa etmek için mühim yöntemlerden birisi "Karnaugh Haritaları"

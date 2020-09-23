@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /plymouth-tema-olusturma-rehberi
 title: Plymouth Tema Oluşturma Rehberi
-image: https://www.dropbox.com/s/62hvx2ycig2p0v5/plymouth.png?raw=1
+image: /static/linux/plymouth.png
 tags: ["Linux", "Plymouth"]
 date: 2020-08-12T22:00:00.000Z
 description: Kendi boot ekranınızı tasarlayın!

@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /c++11-lambda
 title: "C++11: Lambda"
-image: https://www.dropbox.com/s/i2c509w6e9mxdlx/kapak-lambda.png?raw=1
+image: /static/cpp/kapak-lambda.png
 tags: ["C++11", "C++"]
 date: 2020-03-11T00:00:00.000Z
 description: C++11'de "Lambda Fonksiyonlar" nedir?

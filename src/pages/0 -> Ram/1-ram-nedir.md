@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /0-dan-ram-1-ram-nedir
 title: 0 → RAM | 1) RAM Nedir?
-image: https://www.dropbox.com/s/gj8xlxm6f5b0onh/kapak-ram-nedir.png?raw=1
+image: /static/ram/kapak-ram-nedir.png
 tags: ["RAM"]
 date: 2020-03-02T19:00:03.066Z
 description: Sıfırdan RAM tasarladığımız bir seri.

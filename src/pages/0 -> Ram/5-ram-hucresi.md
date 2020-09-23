@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /0-dan-ram-5-ram-hucresi
 title: 0 → RAM | 5) RAM Hücresi
-image: https://www.dropbox.com/s/5m675tpksv2t2sp/kapak-ram-hucresi.png?raw=1
+image: /static/ram/kapak-ram-hucresi.png
 tags: ["RAM"]
 date: 2020-03-06T11:00:03.066Z
 description: Bir RAM yapmak için bir RAM Hücresini yapabilmeli.

@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /0-dan-ram-4-kod-cozuculer
 title: 0 → RAM | 4) Kod Çözücüler
-image: https://www.dropbox.com/s/s1ixgrzmy85maf9/kapak-decoder.png?raw=1
+image: /static/ram/kapak-decoder.png
 tags: ["RAM"]
 date: 2020-03-05T10:57:03.066Z
 description: Temel RAM bileşenlerimizin sonuncusu "Kod Çözücüler"

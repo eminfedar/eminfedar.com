@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /0-dan-ram-6-ve-ram
 title: 0 → RAM | 6) Ve RAM!
-image: https://www.dropbox.com/s/a38aomimywyhfbd/kapak-ve-ram.png?raw=1
+image: /static/ram/kapak-ve-ram.png
 tags: ["RAM"]
 date: 2020-03-07T12:00:03.066Z
 description: Ve RAM'imizin son hali :)
