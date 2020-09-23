@@ -5,7 +5,7 @@ title: 0 → RAM | 5) RAM Hücresi
 image: https://www.dropbox.com/s/5m675tpksv2t2sp/kapak-ram-hucresi.png?raw=1
 tags: ["RAM"]
 date: 2020-03-06T11:00:03.066Z
-description: Temel RAM bileşenlerimizin sonuncusu "Kod Çözücüler"
+description: Bir RAM yapmak için bir RAM Hücresini yapabilmeli.
 ---
 ## Merhabalar!
 
