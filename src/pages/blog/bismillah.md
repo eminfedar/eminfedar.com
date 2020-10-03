@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /bismillah
 title: Bismillah
-image: /static/genel/bismillah.png
+image: /static/genel/bismillah.jpg
 tags: ["Genel"]
 date: 2020-03-01T22:00:00.000Z
 description: Bismillah her hayrın başıdır.
