@@ -7,7 +7,6 @@ tags: ["Genel"]
 date: 2020-03-01T22:00:00.000Z
 description: Bismillah her hayrın başıdır.
 ---
-https://www.dropbox.com/s/5lq8uhn4wxaqsio/bismillah.jpg?raw=1
 **Bismillâh** her hayrın başıdır. Biz dahi başta ona başlarız.
 
 Bil ey nefsim!
