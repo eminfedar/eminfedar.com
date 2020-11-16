@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-path: /sifirdan-islemci-0-Islemci-mimarisi-ve-RISC-V
+path: /sifirdan-islemci-0-islemci-mimarisi-ve-riscv
 title: Sıfırdan İşlemci | 0) İşlemci mimarisi ve RISC-V
 image: /static/riscv/sifirdan-islemci-0.jpg
 tags: ["Sıfırdan İşlemci", "RISCV"]
-date: 2020-11-16T23:00:00.000Z
+date: 2020-11-11T23:00:00.000Z
 description: "Sıfırdan RISC-V İşlemci tasarlıyoruz!"
 ---
 
@@ -187,4 +187,4 @@ Gördüğünüz üzere bir tane İşlemci, bir tane RAM'imiz var. Basit bir bilg
 Şimdilik böyle bir giriş yapmış olalım ve burada bırakalım. İşlemcimizin içini tasarlamaya [Logisim](http://cburch.com/logisim/index.html) programıyla ikinci derste başlayacağız.
 
 ---
-Bir sonraki ders: [Sıfırdan İşlemci | 1) FETCH](#)
+Bir sonraki ders: [Sıfırdan İşlemci | 1) Fetch (Getir)](/sifirdan-islemci-0-islemci-mimarisi-ve-riscv)
