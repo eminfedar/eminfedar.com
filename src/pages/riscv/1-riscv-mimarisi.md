@@ -4,7 +4,7 @@ path: /sifirdan-islemci-0-Islemci-mimarisi-ve-RISC-V
 title: Sıfırdan İşlemci | 0) İşlemci mimarisi ve RISC-V
 image: /static/riscv/sifirdan-islemci-0.jpg
 tags: ["Sıfırdan İşlemci", "RISCV"]
-date: 2020-11-16T22:00:00.000Z
+date: 2020-11-16T23:00:00.000Z
 description: "Sıfırdan RISC-V İşlemci tasarlıyoruz!"
 ---
 
