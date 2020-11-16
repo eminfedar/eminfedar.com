@@ -4,7 +4,7 @@ path: /riscv-nedir
 title: RISC-V Nedir?
 image: /static/riscv/yunsup_lee_holding_risc_v_prototype_chip.jpg
 tags: ["RISCV"]
-date: 2020-11-10T22:00:00.000Z
+date: 2020-10-10T22:00:00.000Z
 description: "RISC-V Nedir? Türkiye'de işlemci üretmek mümkün mü?"
 ---
 Merhabalar, bu yazıda **RISC-V**(risk fayf)'ı ele alacağız.
