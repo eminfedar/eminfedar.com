@@ -4,7 +4,7 @@ path: /sifirdan-islemci-3-registers
 title: Sıfırdan İşlemci | 3) Registers (Kaydediciler)
 image: /static/riscv/sifirdan-islemci-3.jpg
 tags: ["Sıfırdan İşlemci", "RISCV"]
-date: 2020-11-12T23:00:00.000Z
+date: 2020-11-13T23:00:00.000Z
 description: "Registerlarımızı tasarlıyoruz."
 ---
 
