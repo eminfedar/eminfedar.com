@@ -7,6 +7,9 @@ tags: ["Sıfırdan İşlemci", "RISCV"]
 date: 2020-11-16T22:00:00.000Z
 description: "Sıfırdan RISC-V İşlemci tasarlıyoruz!"
 ---
+
+<iframe src="https://www.youtube-nocookie.com/embed/8q-Oz_DO4Mw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Merhabalar, bu seride birlikte RISC-V Komut Setini işleyebilen Tek çekirdekli, Tek çevrimli ve 32 Bit bir işlemci tasarlayacağız.
 
 Daha sonra da bu işlemcimizi [Pipelined](https://en.wikipedia.org/wiki/Instruction_pipelining) hale getirip performansını arttıracağız.
