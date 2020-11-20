@@ -11,4 +11,4 @@ description: "Registerlarımızı tasarlıyoruz."
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lixgWkTu60U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
-Bir sonraki ders: [Sıfırdan İşlemci | 4) Execute (Çalıştır) - ALU](#)
+Bir sonraki ders: [Sıfırdan İşlemci | 4) Execute (Çalıştır) - ALU](/sifirdan-islemci-4-1-execute-alu)
